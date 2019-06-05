@@ -15,7 +15,7 @@ public class DisplayText extends Display {
 
     void Display(){
         while(!stack1T.empty()){
-            System.out.println(" 1 : "+stack1T.pop()+" 2 : "+stack2T.pop()+" All : "+stack3T.pop()+" ");
+            System.out.println(" (1) : "+stack1T.pop()+" (2) : "+stack2T.pop()+" (All) : "+stack3T.pop()+" ");
         }
     }
 
