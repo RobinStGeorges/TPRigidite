@@ -14,7 +14,7 @@ public class Rigidite {
     }
 
 
-    public double getAllRigidite() {
+    public double getAllRigiditeMoyenne() {
         double acc = 0;
         int size = rigidites.size();
 
@@ -23,6 +23,17 @@ public class Rigidite {
         }
 
         return acc/size;
+    }
+
+    public double getAllRigidite() {
+        double acc = 0;
+        int size = rigidites.size();
+
+        for (int i = 0; i < size; i++) {
+            acc += rigidites.get(i).getAppRigidite();
+        }
+
+        return acc;
     }
 
 

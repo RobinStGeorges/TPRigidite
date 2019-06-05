@@ -32,7 +32,6 @@ class Main {
 
             app1.set_rigidite(rig1);
             app2.set_rigidite(rig2);
-
             all = myRigidite.getAllRigidite();
 
             stack1.push(app1.getAppRigidite());
