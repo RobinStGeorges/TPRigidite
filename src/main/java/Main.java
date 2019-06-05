@@ -44,8 +44,9 @@ class Main {
         stack2T = inverseStack(stack2);
         stack3T = inverseStack(stack3);
 
-        Display displayGraph = new DisplayGraph(stack1T,stack2T,stack3T);
-        Display displayText = new DisplayGraph(stack1T,stack2T,stack3T);
+        //Display displayGraph = new DisplayGraph(stack1T,stack2T,stack3T);
+        Display displayText = new DisplayText(stack1T,stack2T,stack3T);
+        ((DisplayText) displayText).Display();
 
     }
 
